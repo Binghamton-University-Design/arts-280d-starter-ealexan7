@@ -1,0 +1,17 @@
+/*stylesheet*/
+
+body {
+	background-color: beige;
+	color:  black;
+
+}
+
+h1{
+	font-size: 120px;
+	color: turquoise;
+}
+
+h2,p {
+	font-family: monospace;
+	color: blueviolet;
+}
