@@ -1,0 +1,44 @@
+/*stylesheet*/
+
+
+body{
+	background: beige;
+
+}
+
+.par {
+	display: block;
+	text-align: left;
+	margin: 60px;
+	background-color: white;
+	padding: 30px;
+	border: 20px solid silver;
+	border-radius: 30px;
+}
+
+.par p{
+	font-family: monospace;
+	font-size: 25px;
+
+}
+
+#introParagraph{
+	font-size: 40px;
+
+}
+#introParagraph p{
+	font-style: italic;
+
+}
+
+
+figure {text-align: center;
+
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 20px;
+	
+}
