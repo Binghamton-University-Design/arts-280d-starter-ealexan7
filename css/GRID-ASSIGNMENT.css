@@ -12,40 +12,15 @@ body {
 
 }
 
+/*--------------------------*/
 
-.grid {
+#grids1 {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	/*grid-template-columns: (3, 1fr);*/
-	grid-gap: 3rem;
-	grid grid-auto-flow: dense;
-
-
-}
-
-.grid div {
-	text-align: center;
-	padding: 1rem;
-	background-color: skyblue;
-}
-
-.item5 {
-	/*grid-column: span 2;*/
-	grid-column-start: 1;
-	grid-column-end: 3;
-}
-
-
-
-
-
-
-#complex-grid {
-	display: grid;
-	grid-template-columns: repeat 5, 1fr;
+	grid-template-columns: repeat(3, 1fr);
 	grid-auto-rows: 100px;
-	grid-gap: 1rem;
+	grid-gap: .5rem;
 	width: 100%;
+	margin-bottom: 100px;
 }
 
 .block {
@@ -53,11 +28,43 @@ body {
 }
 
 .wide {
-	grid-row: 2 / 4;
-	grid-column: 3 / 5;
+	grid-column: span 2;
+
 
 }
 
 .tall {
-	grid-row: 1 / 3;
-	grid-column: 2 / 3;
+	grid-row: span 2;
+
+
+}
+
+
+
+/*--------------------------*/
+
+#grids2 {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-auto-rows: 100px;
+	grid-gap: .5rem;
+	
+
+}
+
+
+.square {
+	background-color: lightskyblue;
+
+
+	
+}
+
+
+.long {
+	grid-column: span 1;
+		
+}
+
+.xtra {
+	grid-column: span 5;
