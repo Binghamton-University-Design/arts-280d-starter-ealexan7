@@ -1,35 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title> MyWebsite: Home</title>
-	</head>
-	<body>
-		<header>
-			<h1>Hello World !!</h1>
-		</header>
-		<main>
-			<article>
-				<header>
-					<h2> Who am I ?</h2>
-				</header>
-				<p>I am a student in Binghamton University</p>
-			</article>
-			<article>
-				<header>
-					<h2> Where do I live</h2>
-				</header>
-				<p>I live in Jakarta, Indonesia</p>
-			</article>
-			<article>
-				<header>
-					<h2> What I like</h2>
-				</header>
-				<p>I love  a lot of things</p>
-			</article>
-		</main>
+<html>
+<head>
+  
+  <meta name="keywords" content="design, html, css, frontend, developer, designer, student">
+  <meta name="description" content="Personal Website of Eagan Alexander">
+  <title>Eagan Alexander</title>
+  <link rel="icon" type="img/png" href="img/rand.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <div id="masthead" class="grid">
+
+      <div id="logo" class="width-9-12-m width-5-12">
+        <a href="/" title="Kevin Lahoda">
+          <img src="img/rand.png">
+          <h1>Eagan Alexander</h1>
+        </a>
+      </div>
+
+      <div id="nav-button" class="width-3-12-m width-12-12">
+        <div id="nav-button-holder">
+          <button class="hamburger hamburger--squeeze" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
 
 
+      <div id="nav" class="width-12-12-m width-7-12">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+       </ul> 
+      </div>
+    </div>
+  </div>
 
-		
-	</body>
+</body>
 </html>
