@@ -32,7 +32,9 @@ h3 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.3rem;
+
+
 }
 
 #wrapper {
@@ -217,6 +219,7 @@ transition: text-decoration-color .3s ease-in-out;
   padding-top: 20px;
 }
 
+
 #work h3, #writings h3, #portfolio h3 {
   letter-spacing: 1px;
   margin-bottom: 2rem;
@@ -335,13 +338,25 @@ transition: text-decoration-color .3s ease-in-out;
   border: .5px dotted paleturquoise;
 }
 
+#portfolio {
+  margin-top: -200px;
+}
+
+#gro {
+  background-color: #faf9f7;
+  padding: 30px 25px 20px 25px;
+  border-radius: 30px;
+  border: .5px dotted paleturquoise;
+}
+
+
 
 /*FOOTER*/
 
 #footer {
   text-align: right;
   font-size: .85rem;
-  color: var(--body-color2)
+  color: var(--body-color)
 
 }
 
